@@ -11,7 +11,7 @@ while True:
     print('6. Count contact')
     print('7. Exit')
 
-    choice =input("Enter your chioce =")
+    choice =input("Enter your choice =")
 
     if choice =="1":
         name =input("Enter your name =")
@@ -26,7 +26,7 @@ while True:
 
 
     elif choice =="2":
-        name = input("Enter contact name tp view = ")
+        name = input("Enter contact name to view = ")
         if name in contacts:
             contact = contacts[name]
             print(f"Name:{name}, Age:{age}, Mobile Number:{mobile}")
